@@ -15,7 +15,7 @@ We expect and demand that you follow some basic rules. Nothing dramatic here. Th
 **BE EXCELLENT TO EACH OTHER**
 
 Do I need to say more? 
-If your behaviour or communication does not fit into this statement, we do not wish for you to help us.
+If your behavior or communication does not fit into this statement, we do not wish for you to help us.
 
 ## What can you do?
 
