@@ -12,7 +12,7 @@ prettydate: "10 November 2007"
 - 100 Weldon Boulevard
 - Orlando, Florida
  
-<a href="/assets/pdf/0001.pdf">PDF of Schedule</a>
+[PDF of Schedule](/assets/pdf/0001.pdf)
  
 This event has completed. All data shown below is from the historical XML public data available.
 <ul>
