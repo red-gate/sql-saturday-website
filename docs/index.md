@@ -67,7 +67,7 @@ Here are some other events that you might find interesting as a data professiona
                &nbsp;
             {% endif %}
           </td>
-          <th scope="col"><a href="{{ block.url }}">{{ block.title }}</a></th>
+          <th scope="col"><a href="{{ block.url | absolute_url }}">{{ block.title }}</a></th>
           <th scope="col">{{ block.date }}</th>
         </tr>
         {% endfor %}
