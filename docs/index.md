@@ -1,6 +1,6 @@
 ---
 layout: home
-title: "SQLSaturday Home"
+title: "SQLSaturday"
 ---
 Welcome to SQLSaturday, the data platform and SQL Server community franchise for technical events. We have a list of <a href="#events">upcoming events</a> below as well as <a href="#other">other events</a> from different sources that are of interest to the data professional.
 
@@ -33,7 +33,7 @@ These are the SQLSaturday events that have been scheduled.
   {% endfor %}
   {% if future == 0 %}
     <tr>
-    <td><img src="/sql-saturday-website/assets/img/logos/Just_icon_Color.png"></td>
+    <td><img src="/sql-saturday-website/assets/img/logos/Just_icon_Color_small.png"></td>
       <td>No future events scheduled at this time
       </td>
       <td>&nbsp;</td>
@@ -67,7 +67,7 @@ Here are some other events that you might find interesting as a data professiona
                &nbsp;
             {% endif %}
           </td>
-          <th scope="col"><a href="/sql-saturday-website/{{ block.url }}">{{ block.title }}</a></th>
+          <th scope="col"><a href="/sql-saturday-website/{{ thumbnail }}">{{ block.title }}</a></th>
           <th scope="col">{{ block.date }}</th>
         </tr>
         {% endfor %}
