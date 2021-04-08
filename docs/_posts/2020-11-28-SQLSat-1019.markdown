@@ -12,7 +12,7 @@ prettydate: "28 November 2020"
 - 182 Cecil Street, Frasers Tower, Level 11 · Singapore
 - Singapore, , Singapore
  
-<a href="/assets/pdf/1019.pdf">PDF of Schedule</a>
+[PDF of Schedule](/assets/pdf/1019.pdf)
  
 This event has completed. All data shown below is from the historical XML public data available.
 <ul>
