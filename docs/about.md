@@ -18,7 +18,7 @@ All of these events are the result of many organizers, volunteers, and speakers 
 
 **Note: this site is under construction and will change over time.**
 
-Read more about the [history](#history) and [milestones](#milestone) of the franchise.
+Read more about the [history](#history) and [milestones](#milestone) of the franchise. You can also learn more about the [foundation](/sql-saturday-website/foundation) that manages the current brand.
 
 ## <a name="history"></a>History
 
