@@ -61,7 +61,7 @@ Here are some other events that you might find interesting as a data professiona
         {% assign thumbnail = block.thumb %}
         <tr>
           <td>
-            {% if thumbnail == false %}
+            {% if thumbnail %}
               <img src="{{ block.thumb }}">
             {% else %}
                &nbsp;
