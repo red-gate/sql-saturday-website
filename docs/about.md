@@ -28,6 +28,10 @@ The goal of these events was to allow local organizers to run a free event for t
 
 The franchise was built to help them with marketing, mentoring, and tools that faciltated the execution of each event. The initial goals were to use local speakers, keep costs low, and allow sponsors to reach an audience they might not otherwise get the chance to interact with. The evolution of the events included the addition of pre-cons on the days before events as well as a lunch fee to enable organizers to defray the costs of providing lunch.
 
+The initial logo was developed by Andy Warren.
+
+![Original logo](/assets/img/logos/sqlsat85.png)
+
 ### The Second Evolution of SQL Saturday
 
 [SQL Saturday #33 - Charlotte](/2010-3-6-SQLSat-0033.html), the franchise was handed over to the PASS organization to manage and support.
@@ -44,7 +48,7 @@ PASS rebranded themselves and the site, changing logos, and adding a few require
 
 The new logo incorporated the PASS angle brackets look and a new color scheme.
 
-<img src="/assets/img/logos/sqlsaturday_logo_old.png">
+![new logo](/assets/img/logos/sqlsaturday_logo_old.png)
 
 PASS also hired <A href="https://twitter.com/cathrinew">Cathrine Wilhelmsen</A> as the new community liaison to continue to support the franchise.
 
