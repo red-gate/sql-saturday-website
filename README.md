@@ -1,6 +1,6 @@
-# SQL Saturday
+# SQLSaturday
 
-This repository has been created as the placeholder for the fourth reboot of the SQL Saturday franchise.
+This repository has been created as the placeholder for the fourth reboot of the SQLSaturday franchise.
 
 ## Goals
 

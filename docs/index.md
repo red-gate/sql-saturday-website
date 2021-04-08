@@ -1,12 +1,12 @@
 ---
 layout: home
-title: "SQL Saturday Home"
+title: "SQLSaturday Home"
 ---
-Welcome to SQL Saturday, the data platform and SQL Server community franchise for technical events. We have a list of <a href="#events">upcoming events</a> below as well as <a href="#other">other events</a> from different sources that are of interest to the data professional.
+Welcome to SQLSaturday, the data platform and SQL Server community franchise for technical events. We have a list of <a href="#events">upcoming events</a> below as well as <a href="#other">other events</a> from different sources that are of interest to the data professional.
 
 ## <a name="events"></a>Events
 
-These are the SQL Saturday events that have been scheduled.
+These are the SQLSaturday events that have been scheduled.
 
 <table cellspacing=0 class="table table-hover table-borderless table-sortable mt-3" width="100%">
   <thead>

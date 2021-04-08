@@ -9,10 +9,10 @@ future: true
 
 
 # Name of website
-title: SQL Saturday
+title: SQLSaturday
 
 # Your name to show in the footer
-author: The SQL Saturday Foundation / Redgate Software
+author: The SQLSaturday Foundation / Redgate Software
 
 # --- List of links in the navigation bar --- #
 
@@ -66,7 +66,7 @@ social-network-links:
 
 # If you want to show a link to an RSS in the footer, add the site description here.
 # If you don't want to show an RSS link, remove the following line.
-rss-description: SQL Saturday is the home for one day free technical events
+rss-description: SQLSaturday is the home for one day free technical events
 
 # --- General options --- #
 
