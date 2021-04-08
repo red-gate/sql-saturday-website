@@ -67,7 +67,7 @@ Here are some other events that you might find interesting as a data professiona
                &nbsp;
             {% endif %}
           </td>
-          <th scope="col"><a href="/sql-saturday-website/{{ thumbnail }}">{{ block.title }}</a></th>
+          <th scope="col"><a href="{{ thumbnail }}">{{ block.title }}</a></th>
           <th scope="col">{{ block.date }}</th>
         </tr>
         {% endfor %}
