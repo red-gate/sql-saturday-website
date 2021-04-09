@@ -20,6 +20,11 @@ events:
   date: May 15, 2021
   url: https://datasaturdays.com/2021-05-15-datasaturday0004/
 
+- title: "GroupBy Conference"
+  date: May 25-26, 2021
+  url: https://groupby.org/
+  thumb: /assets/img/logos/groupby_logo.png
+
 - title: "Data Toboggan - Cool Runnings"
   date: Jun 12, 2021
   url: http://www.datatoboggan.co.uk/
@@ -28,6 +33,11 @@ events:
   date: Jun 12, 2021
   url: https://datadriventechnologies.org/sqlsaturday-in-losangeles/
   thumb: /assets/img/logos/sqsatla-logo.jpg
+
+- title: "EightKB"
+  date: Jul 28, 2021
+  url: https://eightkb.online/
+  thumb: /assets/img/logos/eightkb_logo.png
 
 - title: "Dativerse"
   date: Aug 13, 2021
