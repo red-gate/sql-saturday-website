@@ -25,6 +25,11 @@ events:
   url: https://groupby.org/
   thumb: /assets/img/logos/groupby_logo.png
 
+- title: "DataMinutes"
+  date: Juun 11, 2021
+  url: https://datagrillen.com/dataminutes/
+  thumb: /assets/img/logos/dataminutes.jpg
+
 - title: "Data Toboggan - Cool Runnings"
   date: Jun 12, 2021
   url: http://www.datatoboggan.co.uk/
