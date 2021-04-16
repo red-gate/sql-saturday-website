@@ -42,6 +42,10 @@ PASS continued to support the franchise and assist local organizers in running e
 
 PASS also hired [Nico Neugebauer](http://twitter.com/NikoNeugebauer) to help grow the franchise outside of the US. With his and Karla's efforts, there were many more events that took place around the world.
 
+The logo was also changed with new colors.
+
+![Original logo](/assets/img/logos/sqlsat_logo2.png)
+
 ### The Third Evolution of SQLSaturday
 
 PASS rebranded themselves and the site, changing logos, and adding a few requirements. They instituted a global partner program to allow large vendors to support many events by donating money to the program and having PASS distribute the money to local organizers.
