@@ -17,7 +17,8 @@ scheduleurl:
 
  
 speakertext: 
-speakerlisturl: "https://sessionize.com/2021-sql-saturday-in-los-angeles"
+speakerlisturl: 
+callforspeakersurl: "https://sessionize.com/2021-sql-saturday-in-los-angeles"
 callforspeakers:  false
 callforspeakersenddate: 14 Apr 2021
 

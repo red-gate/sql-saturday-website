@@ -150,7 +150,9 @@ layout: base
             <p>
                The schedule has not been announced yet. 
             </p>
-            <p></p>
+            {% endif %}
+            {% if pagedata.callforspeakers == true %}
+            <p>
                If you want to <a href="#speakers" class="js-scroll-trigger">submit your own session</a> you can still do so.
             </p>
             {% endif %}
@@ -166,16 +168,21 @@ layout: base
       {% endif %}                         
       </p>
       {% if pagedata.callforspeakers == false %}
-       <p>The call for speakers is now closed. You can see a list of the speakers on the submission page:</p>
-         <script type="text/javascript" src="{{pagedata.speakerlisturl}}"></script>   
-      {% else %}
+         <p>The call for speakers is now closed.
+         </p>
+         {% if pagedata.speakerlisturl %}
+         <p>
+         You can see a list of the speakers here:</p>
+          <script type="text/javascript" src="{{pagedata.speakerlisturl}}"></script>   
+          {% endif %}
+       {% else %}
        <p>You can submit a session by clicking the link below.
        {% if pagedata.callforspeakersenddate %}
         The call for speakers ends on {{ pagedata.callforspeakersenddate }}
        {% endif %}
        </p>
        <p align="center">
-       <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="{{pagedata.speakerlisturl}}">Submit your session</a>
+       <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="{{pagedata.callforspeakersurl}}">Submit your session</a>
        </p>
       {% endif %}                         
       <p>&nbsp;</p>
