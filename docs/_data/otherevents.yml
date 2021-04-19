@@ -19,6 +19,11 @@ events:
   url: https://datasaturdays.com/2021-05-15-datasaturday0004/
   thumb: /assets/img/logos/datasaturday_logo.png
 
+- title: "#DataWeekender"
+  date: May 15, 2021
+  url: https://www.dataweekender.com/
+  thumb: /assets/img/logos/dataweekender_logo.png
+
 - title: "GroupBy Conference"
   date: May 25-26, 2021
   url: https://groupby.org/
