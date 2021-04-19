@@ -1,9 +1,4 @@
 events:
-- title: "Data Saturdays #5 - Redmond"
-  date: "Apr 17, 2021"
-  url: https://datasaturdays.com/2021-04-17-datasaturday0005/
-  thumb: /assets/img/logos/datasaturday_logo.png
-
 - title: "Data Saturdays #6 - Malta"
   date: Apr 24, 2021
   url: https://datasaturdays.com/2021-04-24-datasaturday0006/
