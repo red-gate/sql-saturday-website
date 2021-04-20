@@ -30,13 +30,18 @@ events:
   thumb: /assets/img/logos/groupby_logo.png
 
 - title: "DataMinutes"
-  date: Juun 11, 2021
+  date: Jun 11, 2021
   url: https://datagrillen.com/dataminutes/
   thumb: /assets/img/logos/dataminutes.jpg
 
 - title: "Data Toboggan - Cool Runnings"
   date: Jun 12, 2021
   url: http://www.datatoboggan.co.uk/
+
+- title: "SQL Trail"
+  date: Jun 15, 2021
+  url: https://sqldatapartners.com/conference/
+  thumb: /assets/img/logos/sqltrail.png
 
 - title: "Data Saturday #12 - Data ANZAC"
   date: Jun 25, 2021
