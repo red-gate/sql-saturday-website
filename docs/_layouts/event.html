@@ -28,12 +28,10 @@ layout: base
       <p>{{pagedata.description}}</p>
 
       {% if pagedata.officialwebsite %}
-      <p>The official website is: <a href="{{ pagedata.officialwebsite }}">{{ pagedata.officialwebsite }}</a></p>
+        <p>The official website is: <a href="{{ pagedata.officialwebsite }}">{{ pagedata.officialwebsite }}</a></p>
       {% endif %}
 
     
-      {% endif %}
-
       <p>This event is:
          <ul>
          {% if pagedata.virtual == true %}
