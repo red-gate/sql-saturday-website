@@ -6,12 +6,12 @@ virtual: true
 physical: false
 hybrid: false
 description: |
-    Data.SQL.Saturday.LA is a free training event for professionals who use the Microsoft Azure/AWS/GCP data platforms.
+    data.SQL.Saturday.la is a free training event for professionals who use the Microsoft data platform. This community event offers content across data management, cloud and hybrid architecture, analytics, business intelligence, AI, and more.
 
 officialwebsite: 
 eventlocation: 
 registrationurl: "https://www.eventbrite.com/e/2021-sql-saturday-in-los-angeles-sqlsatla-tickets-136013374665"
-capacity: unlimited
+capacity: 
 googlemapurl: 
 scheduleurl: 
 
@@ -27,9 +27,10 @@ callforspeakers:  false
 callforspeakersenddate: 14 Apr 2021
 
 organizers:
-  - orgname: SQL Saturday LA
+  - orgname: Data Driven Technology Inc, 501.c.3 non-profit
     twitter: sqlsatla
     email: "sqlsatla@datadriventechnologies.org"
+    url: https://linktr.ee/sqlsatla
 
 volunteers:
   description: "Volunteers are very important to a successful event. Please use the link below to volunteer."
