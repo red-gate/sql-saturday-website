@@ -48,19 +48,13 @@ sponsorscontacturl:
 sponsors:
   - link: https://www.vmware.com/
     image: /assets/img/logos/vmware-115x18.png
-    height: 80
   - link: https://www.datavail.com/
-    image: /assets/img/logos/Datavail-115x26.png
-    height: 80
+    image: /assets/img/logos/Datavail-115x26.jpg
   - link: https://www.wherescape.com/
     image: /assets/img/logos/wherescape-115x34.jpg
-    height: 80
   - link: https://sios.com/
-    image: /assets/img/logos/sios-115x46.png
-    height: 80
+    image: /assets/img/logos/sios-115x46.jpg
   - link: https://www.dbwatch.com/
-    image: /assets/img/logos/dbwatch-115x26.png
-    height: 80
+    image: /assets/img/logos/dbwatch-115x26.jpg
   - link: https://www.cappuccinoinsurance.com/
     image: /assets/img/logos/cappuccino-115x49.jpg
-    height: 80
