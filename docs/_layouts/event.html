@@ -267,8 +267,13 @@ layout: base
       {% endif %}                         
       </p>
       {% if pagedata.callforspeakers == false %}
-       <p>The call for speakers is now closed. You can see a list of the speakers on <a href="{{pagedata.speakerlisturl}}">the submission page</a>.</p>
+       <p>The call for speakers is now closed. 
+        {% if pagedata.speakerlisturl %}
+          You can see a list of the speakers on <a href="{{pagedata.speakerlisturl}}">the submission page</a>.
+        {% endif %}
+        </p>
       {% else %}
+      
        <p>You can submit a session by clicking the link below.
        {% if pagedata.callforspeakersenddate %}
         The call for speakers ends on {{ pagedata.callforspeakersenddate }}
@@ -295,9 +300,6 @@ layout: base
             <a href="{{pagedata.volunteers.volunteerurl}}">Volunteer information</a>.
           </p>
           {% endif %}                         
-        <p>&nbsp;</p>
-        <p>&nbsp;</p>
-        <p>&nbsp;</p>
         <p>&nbsp;</p>
         <p>&nbsp;</p>
       </div>
@@ -327,12 +329,7 @@ layout: base
             {% if pagedata.organizers.twitter %}
             <p>Twitter: <a href="https://www.twitter.com/{{ pagedata.organizers.twitter }}">@{{ pagedata.organizers.twitter }}</a></p>
             {% endif %}
-            You can reach them via <a href="mailto:{{pagedata.organizers.email}}">email</a>
             </div>
-            <p>&nbsp;</p>
-            <p>&nbsp;</p>
-            <p>&nbsp;</p>
-            <p>&nbsp;</p>
             <p>&nbsp;</p>
 
         <br/>
