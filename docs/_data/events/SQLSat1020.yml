@@ -27,7 +27,7 @@ callforspeakers:  false
 callforspeakersenddate: 14 Apr 2021
 
 organizers:
-  - orgname: Data Driven Technology Inc, 501.c.3 non-profit
+  - name: Data Driven Technology Inc, 501.c.3 non-profit
     twitter: sqlsatla
     email: "sqlsatla@datadriventechnologies.org"
     url: https://linktr.ee/sqlsatla
