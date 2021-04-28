@@ -28,20 +28,22 @@ layout: base
       <p>{{pagedata.description}}</p>
 
       {% if pagedata.officialwebsite %}
-        <p>The official website is: <a href="{{ pagedata.officialwebsite }}">{{ pagedata.officialwebsite }}</a></p>
+      <p>The official website is: <a href="{{ pagedata.officialwebsite }}">{{ pagedata.officialwebsite }}</a></p>
       {% endif %}
 
     
-      <p>This event is:
-         <ul>
+      <p>This event is: 
          {% if pagedata.virtual == true %}
-          <li>Virtual</li>
+          Virtual
          {% endif %}
          {% if pagedata.physical == true %}
-         <li>Live and in-person</li>
-         {% endif %}
+           {% if pagedata.virtual == true %}
+           , 
+           {% endif %}
+           Live and in-person
+           {% endif %}
          {% if pagedata.hybrid == true %}
-         <li>Hybrid (streamed and live)</li>
+         Hybrid (streamed and live)
          {% endif %}
          </ul>
       </p>
@@ -54,6 +56,10 @@ layout: base
           <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="{{pagedata.registrationurl}}">Register now</a>
         {% endif %}
       </p>
+      {% if pagedata.eventcountdown %}
+          {{ pagedata.countdownscript }}
+      {% endif %}
+
       <p align="center">
         <a href="#schedule">Schedule</a> 
         &#x25CF 
@@ -294,7 +300,21 @@ layout: base
       <!-- Contact -->
           <div class="container">
             <h2 align="center"><A name="contact"></A>Contact the Organizers</h2>
-            <p>The organizers of this event are: {{ pagedata.organizers.orgname }}
+            <p>The organizers of this event are: 
+              <ul>
+              {% for organizer in pagedata.organizers %}   
+                <li>{{ organizer.name }} 
+                  (
+                  {% if organizer.email %}
+                  <a href="mailto:{{organizer.email}}">email</a>
+                  {% endif %}
+                  {% if organizer.twitter %}
+                  <a href="https://www.twitter.com/{{organizer.twitter}}">@{{organizer.twitter}}</a>
+                  {% endif %}
+                  )
+                </li>
+              {% endfor %}
+              </ul>
             </p>
             {% if pagedata.organizers.twitter %}
             <p>Twitter: <a href="https://www.twitter.com/{{ pagedata.organizers.twitter }}">@{{ pagedata.organizers.twitter }}</a></p>
