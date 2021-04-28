@@ -313,15 +313,15 @@ layout: base
                 <li>{{ organizer.name }} - Contact:
                   (
                   {% if organizer.email %}
-                  <a href="mailto:{{organizer.email}}">email</a> -
+                  <a href="mailto:{{organizer.email}}">email</a> &#x25CF
                   {% endif %}
                   {% if organizer.twitter %}
-                  <a href="https://www.twitter.com/{{organizer.twitter}}">@{{organizer.twitter}}</a>
+                  <a href="https://www.twitter.com/{{organizer.twitter}}">@{{organizer.twitter}}</a> &#x25CF
+                  {% endif %}
+                  {% if organizer.url %}
+                  <a href="{{organizer.url}}">{{organizer.url}}</a>
                   {% endif %}
                   )
-                  {% if organizer.url %}
-                   - <a href="{{organizer.url}}">{{organizer.url}}</a>
-                  {% endif %}
                 </li>
               {% endfor %}
               </ul>
