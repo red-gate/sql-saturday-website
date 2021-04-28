@@ -80,15 +80,15 @@ These are separate entries. You can use true/false for each of these, as apporpr
 
 This is the text that you want to include to describe your event. The YAML for this is shown in the [SQLSat1020](/data/events/1020.yml) file is listed like this:
 
-description: |
+description: |<br/>
     ipsum lorem
 
-The bar allows a multi-line entry, so you can put your text on the lines below, indented. If you want breaks for multiple lines, enter things like this:
+The bar allows a multi-line entry, so you can put your text on the lines below, indented. If you want breaks for multiple lines, enter things like this (using _ to represent spaces):
 
-description: |
-    ipsum lorem
+description: |\
+____ipsum lorem\
 
-    ipsum lorem
+____ipsum lorem
 
 The line break is needed to render these as separate paragraphs.
 
@@ -139,13 +139,28 @@ This is the text that is printed below the "Rooms" heading. Enter any text you w
 
 **join.rooms**
 
-This is the subtag for your rooms. Below this tag is an array of rooms. Each takes a name and a URL. The name is used to render a button. The URL is the target of the button. The structure of this tag is the first line below rooms: starts with a hyphen, space, then name:. Indent the subsequent url: entry to the same level as name. An example is:
+This is the subtag for your rooms. Below this tag is an array of rooms. Each takes a name and a URL. The name is used to render a button. The URL is the target of the button. The structure of this tag is the first line below rooms: starts with a hyphen, space, then name:. Indent the subsequent url: entry to the same level as name. An example is (underscores used spaces here):
 
-join:
-  description: Click on the room you want to join. You can change room at any time to attend the sessions that you prefer.
-  rooms:
-    - name: First
-      url: https://www.youtube.com/results?search_query=first
-    - name: Second
-      url: https://www.youtube.com/results?search_query=second
+join:\
+__description: Click on the room you want to join. You can change room at any time to attend the sessions that you prefer.\
+__rooms:\
+____- name: First
+______url: https://www.youtube.com/results?search_query=first
+____- name: Second
+______url: https://www.youtube.com/results?search_query=second
 
+**speakertext**
+
+This is text that you want shown under the Speakers heading. Leave blank if you don't want anything.
+
+**speakerlisturl**
+
+This is the sessionize (or other) call for speakers URL. This is used for the target of the submit a session button.
+
+**callforspeakers**
+
+If true, the submission button is shown. If false, the button is not shown and the text displays the call for speakers is closed.
+
+**callforspeakersenddate**
+
+Date on which the call for speakers ends.
