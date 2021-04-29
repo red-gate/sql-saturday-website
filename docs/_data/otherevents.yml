@@ -49,6 +49,11 @@ events:
   thumb: /assets/img/logos/eightkb_logo.png
 
 - title: "Dativerse"
+  date: Aug 7, 2021
+  url: https://data-geeks.org/data-geeks-saturday/
+  thumb: /assets/img/logos/DataGeeksSaturdays-logo.png
+
+- title: "Dativerse"
   date: Aug 13, 2021
   url: http://Dativerse.io
   thumb: /assets/img/logos/dativerse.png
