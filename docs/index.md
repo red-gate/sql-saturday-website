@@ -34,7 +34,7 @@ These are the SQLSaturday events that have been scheduled.
   {% if future == 0 %}
     <tr>
     <td><img src="/assets/img/logos/Just_icon_Color_small.png"></td>
-      <td>No future events scheduled at this time
+      <td>Future events coming soon, stay tuned...
       </td>
       <td>&nbsp;</td>
     </tr>
